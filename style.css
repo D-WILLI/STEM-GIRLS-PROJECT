@@ -1,6 +1,60 @@
+/* background-image{
+    height: 1629px;
+    width: 1000px;
+}   */
+    
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0%;
+    /* height: 100vh; */
+
+}
 .page-title{
     font-family: 'Chilanka', cursive;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 3.1%;
     font-size: 500%;
+}; 
+
+/* nav {
+    background: gray; 
+    margin: 100%;
+}
+
+.page-name{
+    font-family: 'Chilanka', cursive;
+    text-align: center;
+    font-size: 300%;
+}
+
+.infomation-box{
+    border: pink , solid , 2px;
+}
+
+.information-header{
+    text-align: center;
+    margin-top: 5%;
+}
+
+h4{
+    text-align: center;
+} */
+
+.container{
+    /* width: 90vw; */
+    margin: auto;
+    display: inline-flex; 
+    height: 4000px;
+    width: 1000px;
+}
+
+.cards{
+    height: 60vh;
+    /* flex: 0.5; */
+    display: inline-flex;
+    
 }
